@@ -4,7 +4,7 @@
         background-repeat:no-repeat;
         background-size:100% 100%  ;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
 
     }
 
@@ -92,22 +92,36 @@
 .container {
         
         margin: 36px -52px;
-        padding: 75px;
-        width: 26%;
-        border-radius: 28px;
+        padding: 55px ;
+        width: 28%;
+        border-radius: 34px;
+        padding: 60px ;
+        /* box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5); */
+
+
     }
     .container h2{
         text-decoration: underline;
     }
+    .form{
+        margin-bottom: -6px;
 
-    .form-group input {
-        font-family: 'Baloo Bhai', cursive;
-        text-align: center;
-        display: block;
-        width: 508px;
-        padding: 1px;
-        border: 2px solid black;
-        margin: 11px auto;
-        font-size: 25px;
-        border-radius: 8px;
     }
+
+    .form input,
+    form select {
+        border: 1px solid #777;
+        border-radius: 10px;
+        font-family: inherit;
+        padding: 8px;
+        display: block;
+        width: 95%;
+    }
+    .form label {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    
+
+    
+  
