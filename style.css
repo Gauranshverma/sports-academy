@@ -119,6 +119,18 @@
         margin-bottom: 10px;
     }
     
+@media screen and (max-width:900px){
 
+    .navbar{
+        display: block;
+        margin-top: 40px;
+        
+      
+       }
+       .right{
+        display:block;
+
+    }
+}
     
   
