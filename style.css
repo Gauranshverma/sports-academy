@@ -20,13 +20,13 @@
     filter: invert(100%);
 
 }
-.mid{
+/* .mid{
     border: 2px solid red;
     margin: 12px auto;
    display: block;
    width: 33%;
    position: fixed;
-}
+} */
 .right{
     display:inline-block;
     border: 2px solid green;
@@ -42,15 +42,11 @@
 
 }
 .navbar{
- display: inline-block;
- margin: 15px 470px;
- /* position: fixed;
- overflow: visible; */
+ margin-left: 380px;
+ display: flex;
+ gap: 10px;
 }
-.middle{
-    top: 0;
-    position: fixed;
-}
+
 
 .navbar li{
     padding-left: 9px;
@@ -76,9 +72,10 @@
     
 }
 .content h1{
-    font-size:  26px;
+    font-size:  20px;
    width: 100%;
-   margin: 140px -20px;
+   /* margin: 140px -20px; */
+   margin-top: 230px;
 
 }
 .content p{
