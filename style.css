@@ -1,6 +1,6 @@
   body{
         color: azure;
-        background-image: url(bkg.webp);
+        background: grey;
         background-repeat:no-repeat;
         background-size:100% 100%  ;
         background-repeat: no-repeat;
@@ -56,12 +56,12 @@
 .navbar li a{
     font-style: italic;
     font-size: medium;
-    color: white;
+    color: #F4F0E2;
     text-decoration: none;
 }
 .navbar li a:hover{
     text-decoration: underline;
-    color:grey
+    color:brown;
 }
 .content{
     border: 2pxsolid red;
@@ -76,6 +76,8 @@
    width: 100%;
    /* margin: 140px -20px; */
    margin-top: 230px;
+   color: #F4F0E2;
+   
 
 }
 .content p{
@@ -99,6 +101,13 @@
     }
     .container h2{
         text-decoration: underline;
+        font-style: inherit;
+        color: #F4F0E2;
+
+    }
+    .container h2:hover{
+        color:brown
+
     }
     .form{
         margin-bottom: -6px;
@@ -120,11 +129,18 @@
     }
     
 @media screen and (max-width:900px){
+    .left{
+        display: block;
+       
+    }
 
     .navbar{
-        display: block;
+        display:block;
+        flex-direction: column;
         margin-top: 40px;
         
+        
+
       
        }
        .right{
